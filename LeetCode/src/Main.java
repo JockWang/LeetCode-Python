@@ -2,10 +2,7 @@ import java.util.List;
 
 public class Main {
     public static void main(String args[]){
-        int [] candidates = {10,1,2,7,6,1,5};
-        int target = 8;
-        Solution40 s = new Solution40();
-        print(s.combinationSum2(candidates,target));
+        System.out.println(new Solution43().multiply("123456789","987654321"));
     }
     public static void print(List<List<Integer>> list){
         for(List li:list){
