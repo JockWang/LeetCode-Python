@@ -2,9 +2,11 @@ import java.util.List;
 
 public class Main {
     public static void main(String args[]){
+        int [] jump = {3,2,1,0,4};
+        System.out.println(new Solution55().canJump(jump));
 //        System.out.println(new Solution43().multiply("123456789","987654321"));
-        int [][] matrix = {{1,2,3,4},{5,6,7,8},{9,10,11,12}};
-        print(new Solution54().spiralOrder(matrix));
+//        int [][] matrix = {{1,2,3,4},{5,6,7,8},{9,10,11,12}};
+//        print(new Solution54().spiralOrder(matrix));
     }
 //    public static void print(List<List<Integer>> list){
 //        for(List li:list){
