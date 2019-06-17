@@ -2,8 +2,9 @@ import java.util.List;
 
 public class Main {
     public static void main(String args[]){
-        int [][] input = {{3,4},{2,3}};
-        print(new Solution56().merge(input));
+        new Solution59().generateMatrix(0);
+//        int [][] input = {{3,4},{2,3}};
+//        print(new Solution56().merge(input));
 //        int [] jump = {3,2,1,0,4};
 //        System.out.println(new Solution55().canJump(jump));
 //        System.out.println(new Solution43().multiply("123456789","987654321"));
