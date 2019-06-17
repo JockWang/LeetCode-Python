@@ -2,7 +2,8 @@ import java.util.List;
 
 public class Main {
     public static void main(String args[]){
-        new Solution59().generateMatrix(0);
+        System.out.println(new Solution60().getPermutation(4,9));
+//        new Solution59().generateMatrix(0);
 //        int [][] input = {{3,4},{2,3}};
 //        print(new Solution56().merge(input));
 //        int [] jump = {3,2,1,0,4};
