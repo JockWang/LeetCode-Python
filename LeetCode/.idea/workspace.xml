@@ -1,21 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="feb419b1-29f6-4114-a2d1-a7c127b84907" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/Solution40.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/Solution43.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/Solution47.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/Solution54.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/Solution55.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/Solution56.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/Solution59.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/Solution73.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/Solution75.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="feb419b1-29f6-4114-a2d1-a7c127b84907" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,8 +17,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+            <state relative-caret-position="171">
+              <caret line="9" column="48" lean-forward="true" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -100,7 +86,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -122,6 +107,7 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -178,7 +164,7 @@
   <component name="ToolWindowManager">
     <frame x="127" y="72" width="1346" height="698" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.4222395" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.42923796" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -287,8 +273,8 @@
     <entry file="file://$PROJECT_DIR$/src/Solution67.java" />
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+        <state relative-caret-position="171">
+          <caret line="9" column="48" lean-forward="true" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
