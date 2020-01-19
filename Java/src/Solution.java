@@ -1,3 +1,7 @@
+import sun.reflect.generics.tree.Tree;
+
+import java.util.ArrayList;
+
 public class Solution {
     /**
      * 动态规划的思想：
@@ -35,5 +39,73 @@ public class Solution {
             res = Math.max(max,res);
         }
         return res;
+    }
+    /*
+    * 合并两个排序的链表
+    * */
+    public ListNode Merge(ListNode list1,ListNode list2) {
+        ListNode list = new ListNode(0);
+        ListNode point = list;
+        while(list1 != null && list2 != null) {
+            if (list1.val < list2.val) {
+                point.next = list1;
+                point = point.next;
+                list1 = list1.next;
+            } else {
+                point.next = list2;
+                point = point.next;
+                list2 = list2.next;
+            }
+        }
+        if(list1 != null){
+            point.next = list1;
+        }
+        if(list2 != null){
+            point.next = list2;
+        }
+        return list.next;
+    }
+    /*
+    * 树的子结构
+    * */
+    public boolean HasSubtree(TreeNode root1,TreeNode root2) {
+        if(root1 == null || root2 == null)
+            return false;
+        return (isSubtree(root1.left, root2) || isSubtree(root1.right, root2) || isSubtree(root1, root2));
+    }
+    public boolean isSubtree(TreeNode root1,TreeNode root2){
+        if(root2 == null) return true;
+        if(root1 == null) return false;
+        if(root1.val == root2.val){
+            return (isSubtree(root1.left, root2.left) && isSubtree(root1.right, root2.right));
+        }
+        return false;
+    }
+    /*
+    *二叉树的镜像
+    * */
+    public void Mirror(TreeNode root) {
+        if(root != null){
+            TreeNode temp = root.right;
+            root.right = root.left;
+            root.left = temp;
+            Mirror(root.left);
+            Mirror(root.right);
+        }
+    }
+    /*
+    * 顺时针打印矩阵
+    * */
+    public ArrayList<Integer> printMatrix(int [][] matrix) {
+        ArrayList<Integer> list = new ArrayList<Integer>();
+        if(matrix.length <= 0 || matrix[0].length <= 0)
+            return list;
+        int startx = 0, starty = 0, endx = matrix.length, endy = matrix[0].length;
+        int i = 0, j = 0;
+        while (list.size() < endx*endy){
+            for(int i = starty;i < endy; j ++)
+                list.add(matrix[startx][i]);
+            startx ++;
+        }
     }
 }
