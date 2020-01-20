@@ -107,5 +107,5 @@ public class Solution {
                 list.add(matrix[startx][i]);
             startx ++;
         }
-    }
+//    }
 }
